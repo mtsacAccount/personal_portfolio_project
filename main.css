@@ -1,17 +1,41 @@
 /*Main Image*/
-
-
-
-#hero-image {
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/home.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 80vh;
+body {
+  font-family: 'Oswald', helvetica, arial, sans-serif;
 }
 
+#intro {
+  background: url("img/cafe_workspace.jpg")
+  center fixed;
+  height: auto;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0 300px 0;
+}
+#home {
+  background: url("img/work_items.jpg") center fixed;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 150px 0;
+}
+#projects {
+  background: url("img/contact_bg.png") center fixed;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  color: #fff;
+}
+
+
 #hero-text {
-  margin-top: 23vh;
+  margin-top: 10vh;
   color: white;
 }
 
@@ -30,4 +54,37 @@
 .fa {
   color: white;
   margin-right: 2vw;
+}
+
+.well {
+  min-height: 10vh;
+  color: white;
+  padding: 25px;
+  margin-bottom: 4vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  text-align: center;
+}
+
+#selfie-container {
+  padding: 0;
+  width: auto;
+}
+
+.project-container {
+    border: 3px solid white;
+    min-height: 25vh;
+  }
+
+  #about-section h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3.5em;
+  }
+
+#selfie-text {
+  margin-top: 50px;
 }
